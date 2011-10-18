@@ -16,9 +16,11 @@ Xcountry has one public static method called get_countries. If a translation fil
 
 
 	// Get the countries from the 'countries' table.
-	$countries = Xcountries::get_countries();
+	$Xcountry = new Model_Xcountry();
+	$countries = Xcountry::get_countries();
 	
 	// Get the countries from a specified table.
-	$countries = Xcountries::get_countries('some_table_name');
+	$Xcountry = new Model_Xcountry();
+	$countries = Xcountry::get_countries('some_table_name');
 
 Countries are returned as an array.
