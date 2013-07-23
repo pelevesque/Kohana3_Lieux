@@ -2,11 +2,11 @@
 
 return array(
 	'modules' => array(
-		'Xcountry' => array(
+		'lieux' => array(
 			'enabled'     => TRUE,
-			'name'        => 'Xcountry',
-			'description' => 'A module for selecting a list of countries.',
-			'copyright'   => '&copy; 2010–2011 Pierre-Emmanuel Lévesque',
+			'name'        => 'lieux',
+			'description' => 'A module for selecting a list of places.',
+			'copyright'   => '&copy; 2013 Pierre-Emmanuel Lévesque',
 		)
 	)
 );

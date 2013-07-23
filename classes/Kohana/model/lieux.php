@@ -1,16 +1,19 @@
 <?php defined('SYSPATH') or die('No direct script access.');
 
-class Kohana_Model_Xcountry extends Model_Database {
+class Kohana_Model_Lieux extends Model_Database {
 
 	/**
-	 * Gets the countries.
+	 * Gets the world's countries.
 	 *
-	 * @param    string   database table   (def: countries)
+	 * @param    string   database table  [def: countries]
 	 * @return   array    countries
 	 */
 	public static function get_countries($db_table = 'countries')
 	{
-		$countries = DB::select()->from($db_table)->execute()->as_array();
+		$countries = DB::select()
+			->from($db_table)
+			->execute()
+			->as_array();
 
 		if (I18n::$lang != 'en-us')
 		{
@@ -25,4 +28,4 @@ class Kohana_Model_Xcountry extends Model_Database {
 		return $countries;
 	}
 
-} // End Kohana_Model_Xcountry
+} // End Kohana_Model_Lieux
