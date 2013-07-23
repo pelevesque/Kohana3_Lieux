@@ -16,10 +16,15 @@ Install the database schemas from the schemas folder for the places you wish to 
 
 ### Countries
 
-This method returns an array of countries. If you add translations, the country names will be returned in alphabetical order. The default table is 'countries'. It can be changed with the method's first parameter.
+This method returns an array of countries.
+
+If you add translations, the country names will be returned in alphabetical order.
+
+NOTE: You must install the 'countries' table to use this method.
 
     // Get the countries from the 'countries' table.
     $countries = Model_Lieux::get_countries();
 
     // Get the countries from a specified table.
-    $countries = Model_Lieux::get_countries('SomeOtherTable');
+    // (In case you changed the DB table name.)
+    $countries = Model_Lieux::get_countries('SomeTable');
