@@ -4,7 +4,7 @@ return array(
 	'modules' => array(
 		'lieux' => array(
 			'enabled'     => TRUE,
-			'name'        => 'lieux',
+			'name'        => 'Lieux',
 			'description' => 'A module for selecting a list of places.',
 			'copyright'   => '&copy; 2013 Pierre-Emmanuel Lévesque',
 		)

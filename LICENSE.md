@@ -1,6 +1,6 @@
 # License
 
-lieux uses the MIT open source license.
+Lieux uses the MIT open source license.
 
 ## MIT License (MIT)
 
