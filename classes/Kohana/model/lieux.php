@@ -3,17 +3,14 @@
 class Kohana_Model_Lieux extends Model_Database {
 
 	/**
-	 * Gets the world's countries.
+	 * Gets the countries.
 	 *
 	 * @param    string   database table  [def: countries]
 	 * @return   array    countries
 	 */
 	public static function get_countries($db_table = 'countries')
 	{
-		$countries = DB::select()
-			->from($db_table)
-			->execute()
-			->as_array();
+		$countries = DB::select()->from($db_table)->execute()->as_array();
 
 		if (I18n::$lang != 'en-us')
 		{
