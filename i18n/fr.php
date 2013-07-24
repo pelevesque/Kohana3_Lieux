@@ -24,7 +24,7 @@ return array
 	'Barbados'                                     => 'Barbade',
 	'Belarus'                                      => 'Biélorussie',
 	'Belgium'                                      => 'Belgique',
-	'Belize'                                       => 'Bélize'
+	'Belize'                                       => 'Bélize',
 	'Benin'                                        => 'Bénin',
 	'Bermuda'                                      => 'Bermudes',
 	'Bhutan'                                       => 'Bhoutan',
