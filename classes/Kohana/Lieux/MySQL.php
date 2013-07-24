@@ -15,9 +15,9 @@ class Kohana_Lieux_MySQL extends Lieux {
 	 * @param    string   database table
 	 * @return   array    database table
 	 */
-	protected function _fetch_all($db_table)
+	protected function _fetch_all($table)
 	{
-		return DB::select()->from($db_table)->execute()->as_array();
+		return DB::select()->from($table)->execute()->as_array();
 	}
 
 } // End Kohana_Lieux_MySQL
