@@ -10,8 +10,8 @@ class Kohana_Model_Lieux extends Model_Database {
 	 */
 	public static function get_countries($db_table = 'countries')
 	{
-		$countries = Model_lieux::fetch_all($db_table);
-		$countries = Model_lieux::translate($countries);
+		$countries = Model_Lieux::fetch_all($db_table);
+		$countries = Model_Lieux::translate($countries);
 
 		return $countries;
 	}
