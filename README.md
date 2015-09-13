@@ -26,7 +26,7 @@ This method returns an array of countries.
 
 If you add translations to the i18n folder, the country names will be returned in alphabetical order.
 
-NOTE: You must install the 'countries' table to use this method.
+NOTE: You must install the *countries* table to use this method.
 
 ```php
 // Get the countries from the 'countries' table.
