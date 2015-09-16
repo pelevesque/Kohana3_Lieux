@@ -26,5 +26,4 @@ NOTE: You must install the 'countries' table to use this method.
     $countries = Lieux::instance()->get_countries();
 
     // Get the countries from a custom table.
-    // (In case you changed the table name.)
     $countries = Lieux::instance()->get_countries('custom_table');
