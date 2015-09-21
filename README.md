@@ -2,7 +2,7 @@
 
 ## About
 
-Lieux is a module for displaying lists of places.
+Lieux is a Kohana 3.3.0 module for displaying lists of places.
 
 ## Configuration
 
